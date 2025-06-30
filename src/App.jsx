@@ -21,10 +21,10 @@ return (
             <h2 className='text-gray-800 font-bold text-center text-3xl mb-6'>Sign Up</h2>
             <form className='space-y-4'>
               <Input placeholder="Username"/>
-              <Input placeholder="Email"  className=" bg-amber-700"/>
+              <Input placeholder="Email"  />
               <Input placeholder="Password" type="password"/>
               <Input placeholder="Confirm Password" type="password"/>
-              <button className='bg-indigo-600 hover:bg-indigo-700 text-white font-bold px-4 py-2 transition w-full rounded-md'>
+              <button type="submit" className='bg-indigo-600 hover:bg-indigo-700 hover:cursor-pointer text-white font-bold px-4 py-2 transition w-full rounded-md'>
                 Signup  
               </button>
             </form>
